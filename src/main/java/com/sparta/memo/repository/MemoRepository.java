@@ -15,6 +15,7 @@ import java.sql.Statement;
 import java.util.List;
 
 public class MemoRepository {
+
     private final JdbcTemplate jdbcTemplate;
 
     public MemoRepository(JdbcTemplate jdbcTemplate) {
